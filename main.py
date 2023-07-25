@@ -11,6 +11,10 @@ def fib_generator(n):
 def sum(a, b):
     return a + b
 
+def div(a, b):
+    return a - b
+
 print(range_generator(5))
 print(fib_generator(5))
 print(sum(a,b))
+print(div(a, b))
